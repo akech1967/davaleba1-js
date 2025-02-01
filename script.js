@@ -89,7 +89,7 @@ let theaterTicket = {
         city: "თბილისი",
         street: "რუსთაველის გამზირი 17"
     },
-    purchaseDate: ("01/02/2025") 
+    purchaseDate: new Date() 
 };
 
 theaterTicket.price = 65.50;
@@ -101,4 +101,4 @@ console.log("სპექტაკლი:", theaterTicket.show);
 console.log("ფასი:", theaterTicket.price);
 console.log("ხელმისაწვდომობა:", theaterTicket.isAvailable ? "დიახ" : "არა");
 console.log("თეატრის მისამართი:", theaterTicket.theaterAddress.city + ", " + theaterTicket.theaterAddress.street);
-console.log("შეძენის თარიღი:", theaterTicket.purchaseDate);
+console.log("შეძენის თარიღი:", theaterTicket.purchaseDate.toDateString());
