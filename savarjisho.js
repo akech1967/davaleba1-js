@@ -1,5 +1,5 @@
-// const d = new Date();
-// document.getElementById("demo").innerHTML = d;
+const d = new Date();
+document.getElementById("demo").innerHTML = d;
 
 
 let purchaseDate = new Date()
