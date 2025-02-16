@@ -103,137 +103,206 @@
 
 //5 თებერვლის დავალება
 //  რიცხვის ლუწი ან კენტი შემოწმება:
-let number = 37;
-if (number % 2) {
-  console.log("რიცხვი კენტია");
-} else {
-  console.log("რიცხვი ლუწია");
-}
+// let number = 37;
+// if (number % 2) {
+//   console.log("რიცხვი კენტია");
+// } else {
+//   console.log("რიცხვი ლუწია");
+// }
 
-//რიცხვის დადებითი, უარყოფითი ან ნულის შემოწმება:
-let number1 = 37;
-if (number > 0) {
-  console.log("რიცხვი დადებთია");
-} else if (number < 0) {
-  console.log("რიცხვი უარყოფითია");
-} else {
-  console.log("რიცხვი ნულის ტოლია");
-}
+// //რიცხვის დადებითი, უარყოფითი ან ნულის შემოწმება:
+// let number1 = 37;
+// if (number > 0) {
+//   console.log("რიცხვი დადებთია");
+// } else if (number < 0) {
+//   console.log("რიცხვი უარყოფითია");
+// } else {
+//   console.log("რიცხვი ნულის ტოლია");
+// }
 
-//წლის ნაკიანობის შემოწმება:
+// //წლის ნაკიანობის შემოწმება:
 
-let year = 2025;
-if (year / 4 === 0) {
-  console.log("ნაკიანი წელი");
-} else {
-  console.log("წელი არაა ნაკიანი");
-}
+// let year = 2025;
+// if (year % 4 === 0) {
+//   console.log("ნაკიანი წელი");
+// } else {
+//   console.log("წელი არაა ნაკიანი");
+// }
 
-//  სტუდენტის შეფასების განსაზღვრა ქულის მიხედვით:
-let score = 82;
+// //  სტუდენტის შეფასების განსაზღვრა ქულის მიხედვით:
+// let score = 82;
 
-if (score >= 90 && score <= 100) {
-  console.log("A");
-} else if (score >= 80 && score <= 89) {
-  console.log("B");
-} else if (score >= 70 && score <= 79) {
-  console.log("C");
-} else if (score >= 60 && score <= 69) {
-  console.log("D");
-} else if (score >= 50 && score <= 59) {
-  console.log("E");
-} else if (score >= 0 && score <= 49) {
-  console.log("Fail");
-} else {
-  console.log("შეამოწმეთ ჩანაწერი");
-}
+// if (score >= 90 && score <= 100) {
+//   console.log("A");
+// } else if (score >= 80 && score <= 89) {
+//   console.log("B");
+// } else if (score >= 70 && score <= 79) {
+//   console.log("C");
+// } else if (score >= 60 && score <= 69) {
+//   console.log("D");
+// } else if (score >= 50 && score <= 59) {
+//   console.log("E");
+// } else if (score >= 0 && score <= 49) {
+//   console.log("Fail");
+// } else {
+//   console.log("შეამოწმეთ ჩანაწერი");
+// }
 
-//ასაკის მიხედვით კატეგორიის განსაზღვრა:
+// //ასაკის მიხედვით კატეგორიის განსაზღვრა:
 
-let age = 15;
-if (age >= 0 && age <= 12) {
-  console.log("ბავშვი");
-} else if (age >= 13 && age <= 17) {
-  console.log("მოზარდი");
-} else if (age >= 18 && age <= 64) {
-  console.log("ზრდასრული");
-} else if (age >= 65) {
-  console.log("ხანდაზმული");
-}
-//რიცხვის ციფრების რაოდენობის განსაზღვრა:
+// let age = 15;
+// if (age >= 0 && age <= 12) {
+//   console.log("ბავშვი");
+// } else if (age >= 13 && age <= 17) {
+//   console.log("მოზარდი");
+// } else if (age >= 18 && age <= 64) {
+//   console.log("ზრდასრული");
+// } else if (age >= 65) {
+//   console.log("ხანდაზმული");
+// }
+// //რიცხვის ციფრების რაოდენობის განსაზღვრა:
 
-let number2 = 1789;
+// let number2 = 1789;
 
-console.log("რიცხვს აქვს ", number2.toString().length, " ციფრი");
+// console.log("რიცხვს აქვს ", number2.toString().length, " ციფრი");
 
-//დღის ტიპის განსაზღვრა:
+// //დღის ტიპის განსაზღვრა:
 
-let numberOfDay = 5;
-if (numberOfDay % 7 === 6 || numberOfDay % 7 === 0) {
-  console.log("დღეს დასვენების დღეა");
-} else {
-  console.log("დღეს სამუშაო დღეა");
-}
-//რიცხვების დაბეჭდვა 1-დან 10-მდე:
-for (let i = 1; i <= 10; i++) {
-  console.log(i);
-}
+// let numberOfDay = 5;
+// if (numberOfDay % 7 === 6 || numberOfDay % 7 === 0) {
+//   console.log("დღეს დასვენების დღეა");
+// } else {
+//   console.log("დღეს სამუშაო დღეა");
+// }
+// //რიცხვების დაბეჭდვა 1-დან 10-მდე:
+// for (let i = 1; i <= 10; i++) {
+//   console.log(i);
+// }
 
-let number3 = 1;
+// let number3 = 1;
 
-while (number3 <= 10) {
-  console.log(number3);
-  number3++;
-}
+// while (number3 <= 10) {
+//   console.log(number3);
+//   number3++;
+// }
 
-//   ლუწი რიცხვების დაბეჭდვა 2-დან 20-მდე: 
+// //   ლუწი რიცხვების დაბეჭდვა 2-დან 20-მდე: 
 
-for (let i = 2; i <= 20; i+=2) {
-    console.log(i);
-  }
+// for (let i = 2; i <= 20; i+=2) {
+//     console.log(i);
+//   }
   
 
-// ( არ არის სავალდებულო)while ციკლით: დაწერეთ კოდი, რომელიც while ციკლის გამოყენებით დაბეჭდავს ლუწ რიცხვებს 2-დან 20-მდე. 
+// // ( არ არის სავალდებულო)while ციკლით: დაწერეთ კოდი, რომელიც while ციკლის გამოყენებით დაბეჭდავს ლუწ რიცხვებს 2-დან 20-მდე. 
 
-let number4 = 2;
-while(number4<=20){
-    console.log(number4);
-    number4+=2;
+// let number4 = 2;
+// while(number4<=20){
+//     console.log(number4);
+//     number4+=2;
     
-}
+// }
 
-// //  ( არ არის სავალდებულო) რიცხვების ჯამის გამოთვლა 1-დან 100-მდე: 
+// // //  ( არ არის სავალდებულო) რიცხვების ჯამის გამოთვლა 1-დან 100-მდე: 
 
-let sum1=0;                   
-for(let i=1; i<=100; i++) {
- sum1 += i
+// let sum1=0;                   
+// for(let i=1; i<=100; i++) {
+//  sum1 += i
      
+// }
+// console.log("რიცხვების ჯამი 1-დან 100-მდე:", sum1);  
+
+// // while ციკლით: დაწერეთ კოდი, რომელიც while ციკლის გამოყენებით გამოთვლის რიცხვების ჯამს 1-დან 100-მდე. 
+// let sum = 0; 
+// let number6 = 1; 
+
+// while (number6 <= 100) { 
+//     sum += number6; 
+//     number6++; 
+// }
+
+// console.log("რიცხვების ჯამი 1-დან 100-მდე არის:", sum);  
+
+
+// //   რიცხვების ამოწერა უკუღმა: 
+
+// for (let i = 10; i >= 1; i--) {
+//   console.log(i);
+// }
+
+// // ( არ არის სავალდებულო)while ციკლით: დაწერეთ კოდი, რომელიც while ციკლის გამოყენებით დაბეჭდავს რიცხვებს 10-დან 1-მდე. 
+
+// let number7 = 10;
+
+// while (number7 >= 1) {
+//   console.log(number7);
+//   number7--;
+// }
+
+//12 თებერვლის დავალება
+// მაისურის ობიექტი
+// შექმენით ობიექტი, რომელიც ინახავს მაისურის მონაცემებს:
+ 
+// აღწერა (description)
+// ფერი (color)
+// ზომა (size)
+// ფასი (price)
+// რაოდენობა (quantity)
+// შემდეგ შექმენით ფუნქცია, რომელიც მიიღებს ამ ობიექტს და მომხმარებლის მიერ შეძენილი მაისურების რაოდენობას.
+ 
+// თუ მომხმარებელი ითხოვს საწყობში არსებულზე მეტ რაოდენობას, უნდა დაბრუნდეს ტექსტი: "მარაგში საკმარისი რაოდენობა არ არის!"
+// წინააღმდეგ შემთხვევაში, ფუნქციამ უნდა დააბრუნოს მაისურების ჯამური ფასი.
+
+// const shirt = {
+//   description: "ბამბის მაისური",
+//   color: "შავი",
+//   size: "L",
+//   price: 25,
+//   quantity: 10
+// };
+
+
+// function purchaseTshirts(tshirt, request) {
+//   if (request > shirt.quantity) {
+//       return "მარაგში საკმარისი რაოდენობა არ არის!";
+//   }
+//   return `სულ : ${shirt.price * request}`;
+// }
+
+
+// console.log(purchaseTshirts(shirt, 5));  
+// console.log(purchaseTshirts(shirt, 15)); 
+
+
+//მესამე დავალება
+//  შექმენით მაღაზიის ობიექტი (გლობალური scope-ში), რომელიც შეიცავს პროდუქტის მონაცემებს (სახელი, ფასი, რაოდენობა საწყობში).
+//  შექმენით ფუნქცია (function scope), რომელიც მიიღებს მომხმარებლის შეკვეთას და დააბრუნებს ჯამურ ღირებულებას.
+//  გამოიყენეთ ბლოკის scope if პირობაში, რათა გამოიანგარიშოთ ფასდაკლება შეკვეთაზე (მაგალითად, 3-ზე მეტი პროდუქტის შეძენისას 10% ფასდაკლება).
+// დაბეჭდეთ საბოლოო თანხა ეკრანზე.
+
+const shirt = {
+  description: "ბამბის მაისური",
+  color: "შავი",
+  size: "L",
+  price: 25,
+  quantity: 10
+};
+
+
+function purchaseTshirts(tshirt, request) {
+  if (request > shirt.quantity) {
+      return "მარაგში საკმარისი რაოდენობა არ არის!";
+  }
+
+  let totalPrice = shirt.price * request
+
+  if (request > 3) {
+    totalPrice *= 0.9;
 }
-console.log("რიცხვების ჯამი 1-დან 100-მდე:", sum1);  
 
-// while ციკლით: დაწერეთ კოდი, რომელიც while ციკლის გამოყენებით გამოთვლის რიცხვების ჯამს 1-დან 100-მდე. 
-let sum = 0; 
-let number6 = 1; 
-
-while (number6 <= 100) { 
-    sum += number6; 
-    number6++; 
+  return `სულ : ${totalPrice}`;
 }
 
-console.log("რიცხვების ჯამი 1-დან 100-მდე არის:", sum);  
 
-
-//   რიცხვების ამოწერა უკუღმა: 
-
-for (let i = 10; i >= 1; i--) {
-  console.log(i);
-}
-
-// ( არ არის სავალდებულო)while ციკლით: დაწერეთ კოდი, რომელიც while ციკლის გამოყენებით დაბეჭდავს რიცხვებს 10-დან 1-მდე. 
-
-let number7 = 10;
-
-while (number7 >= 1) {
-  console.log(number7);
-  number7--;
-}
+console.log(purchaseTshirts(shirt, 5));  
+console.log(purchaseTshirts(shirt, 15)); 
+console.log(purchaseTshirts(shirt, 2));
